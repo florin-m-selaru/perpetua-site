@@ -39,6 +39,8 @@ nav.site { display: flex; gap: 24px; }
 nav.site a { font-family: var(--sans); font-size: 13.5px; color: var(--ink-soft); text-decoration: none; padding-bottom: 2px; border-bottom: 2px solid transparent; }
 nav.site a:hover { color: var(--deep); }
 nav.site a.on { color: var(--deep); border-bottom-color: var(--accent); }
+nav.site a.vid { color: var(--accent); font-weight: 600; }
+nav.site a.vid::before { content: "\25B6"; font-size: 9px; margin-right: 6px; position: relative; top: -1px; }
 
 /* hero */
 .hero { background: var(--deep); color: #eef0f6; padding: 92px 0 80px; }
