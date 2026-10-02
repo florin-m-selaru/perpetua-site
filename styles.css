@@ -132,6 +132,10 @@ footer .f { display: flex; justify-content: space-between; gap: 40px; flex-wrap:
 footer .f p { max-width: 62ch; margin: 0; line-height: 1.6; }
 footer nav a { color: var(--ink-faint); text-decoration: none; margin-left: 18px; }
 
+/* app tour video */
+.tour video { display: block; width: 100%; max-width: 960px; margin: 8px auto 0; border: 1px solid var(--rule); background: #000; }
+.tour .cap { text-align: center; font-family: var(--sans); font-size: 14px; margin: 14px 0 0; }
+
 @media (max-width: 860px) {
   .hero-grid, .people, .ways, .ing, .team { grid-template-columns: 1fr; }
   .hero h1 { font-size: 36px; } .arc { flex-direction: column; } .arc div { border-right: 0; border-bottom: 1px solid var(--rule); }
