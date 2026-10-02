@@ -41,6 +41,8 @@ nav.site a:hover { color: var(--deep); }
 nav.site a.on { color: var(--deep); border-bottom-color: var(--accent); }
 nav.site a.vid { color: var(--accent); font-weight: 600; }
 nav.site a.vid::before { content: "\25B6"; font-size: 9px; margin-right: 6px; position: relative; top: -1px; }
+.hero .cta.thesis { background: #1f7a72; }
+.hero .cta.thesis:hover { background: #176159; }
 
 /* hero */
 .hero { background: var(--deep); color: #eef0f6; padding: 92px 0 80px; }
