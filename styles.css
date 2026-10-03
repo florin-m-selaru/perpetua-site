@@ -21,7 +21,8 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+section[id], [id="tour"] { scroll-margin-top: 70px; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--serif);
        font-size: 18px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
 .wrap   { max-width: var(--wrap); margin: 0 auto; padding: 0 32px; }
